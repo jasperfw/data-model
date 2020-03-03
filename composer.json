@@ -1,0 +1,33 @@
+{
+  "name": "jasperfw/data-model",
+  "description": "Library for modeling data sets and objects",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "William Eldridge",
+      "homepage": "http://wigedev.net"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "jasperfw/data-access": "^1.0",
+    "jasperfw/form-builder": "dev-master",
+    "jasperfw/query-builder": "^1.0",
+    "jasperfw/validator": "^1.0",
+    "php": "^7.2",
+    "psr/log": "1.0.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JasperFW\\DataModel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JasperFW\\DataModelTest\\": "tests/"
+    }
+  }
+}
